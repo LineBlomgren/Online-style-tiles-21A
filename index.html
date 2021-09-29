@@ -5,100 +5,136 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Online Style Tiles - 21A</title>
+    <title>Online styletile</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <div class="full-width header-wrapper">
       <header>
-        <h1>Style Tile Template</h1>
-        <h2>Project name</h2>
-        <h3>Style tile</h3>
-        <h4>Version 1</h4>
+        <h3 class="styletile">Styletile version 1</h3>
       </header>
-    </div>
+      </div>
+
+       <div class="stripes1">
+        <section>
+          <img src="grafik/striber_1.png" alt="striber_1">
+        </section>
+      </div>
 
     <main>
-      <div class="column">
+      <div class="column_main1">
+        <section class="typography-main">
+          <h1 class="h1-sample h1-sample_dette_er_en_header">Dette er en header</h1>
+          <p class="font-details-h1">
+            <span class="header-number">h1:</span>
+            <span class="font-name">Golden Hills DEMO</span>,
+            <span class="font-color">#473027</span>,
+            <span class="pixel-size">150 px</span>,
+            <span class="font-type">dafont.com</span>
+          </p>
+          <h2 class="h2-sample h2-sample_dette_er_en_sub_header">Dette er en sub header</h2>
+          <p class="font-details-h2">
+           <span class="header-number">h2:</span>
+            <span class="font-name">Golden Hills DEMO</span>,
+            <span class="font-color">#9F4141</span>,
+            <span class="pixel-size">150 px</span>,
+            <span class="font-type">dafont.com</span>
+          </p>
+          <p class="typography-sample">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed sit amet nibh ut massa tempor accumsan ut eget ex. 
+            Suspendisse non vulputate leo. 
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+            Vivamus ut arcu suscipit, venenatis dui dictum, aliquam augue. 
+            Etiam vitae accumsan ex, in pulvinar sapien. In hac habitasse platea dictumst. 
+          </p>
+          <p class="font-details-p">
+            <span class="header-number">p:</span>
+            <span class="font-name">Roboto</span>,
+            <span class="font-color">#000000</span>,
+            <span class="pixel-size">50 px</span>,
+            <span class="font-type">Adobe Fonts</span>
+          </p>
+        </section>
+        <section class="buttons">
+          <h2 class="h2-sample h2-sample_links_og_knapper">Links og knapper</h2>
+           <div class="column1">
+          <section class="row1">
+               <a href="#" class="typography-sample1"
+            >Dette er et link</a>
+              <p class="font-details-p">
+            <span class="link-type">Normal</span>
+          </p>
+        </section>
+          <section class="row2">
+             <a href="#" class="typography-sample2"
+            >Dette er også et link</a>
+             <p class="font-details-p">
+            <span class="link-type">Hover</span>
+          </p>
+        </section>
+        </div>
+          <div class="btns">
+            <button type="button" class="primary-button">Knap</button>
+            <button type="button" class="secondary-button">Hover</button>
+          </div>
+        </section>
+      </div>
+      <!-- end .column -->
+  
+      <div class="column_main2">
         <section class="swatches">
-          <h3 class="section-heading">Colour swatches</h3>
-          <ul class="swatchgrid">
+          <h2 class="h2-sample h2-sample_farvepalette">Farvepalette</h2>
+          <ul class="swatchgrid_color">
             <li class="color-swatch-1"></li>
             <li class="color-swatch-2"></li>
             <li class="color-swatch-3"></li>
             <li class="color-swatch-4"></li>
             <li class="color-swatch-5"></li>
+            <li class="color-swatch-6"></li>
+            <li class="color-swatch-7"></li> 
           </ul>
         </section>
+        <section class="adjectives">
+          <h2 class="h2-sample h2-sample_adjektiver">Adjektiver</h2>
+
+          <section class="column_adjectives">
+          <ul class="column_adjectives1">
+            <li class="adjectives_orange">Finurligt</li>
+            <li class="adjectives_brown">Legende</li>
+            <li class="adjectives_red">Humoristisk</li>
+            </ul>
+            <ul class="column_adjectives2">
+            <li class="adjectives_orange">Retro</li>
+            <li class="adjectives_brown">Krøllet</li>
+            <li class="adjectives_red">Sjovt</li>
+            </ul>
+            </section>
+        </section>
         <section class="textures">
-          <h3 class="section-heading">Textures</h3>
+          <h2 class="h2-sample h2-sample_inspiration_og_teksturer">Inspiration og teksturer</h2>
           <ul class="swatchgrid">
             <li class="texture-swatch-1"></li>
             <li class="texture-swatch-2"></li>
             <li class="texture-swatch-3"></li>
           </ul>
         </section>
-        <section class="buttons">
-          <h3 class="section-heading">Buttons</h3>
-          <div class="btns">
-            <button type="button" class="primary-button">Button 1</button>
-            <button type="button" class="secondary-button">Button 2</button>
-          </div>
-        </section>
       </div>
       <!-- end .column -->
-
-      <div class="column">
-        <section class="typography-main">
-          <h3 class="section-heading">Typography</h3>
-          <h2 class="h1-sample">A sample header</h2>
-          <p class="font-details-h1">
-            <span class="font-name">Font Name</span>,
-            <span class="font-color">#color value</span>
-          </p>
-          <h2 class="h2-sample">An example of a sub header</h2>
-          <p class="font-details-h2">
-            <span class="font-name">Font Name</span>,
-            <span class="font-color">#color value</span>
-          </p>
-          <p class="typography-sample">
-            This sample paragraph has <strong>strong parts</strong> and
-            <em>emphasized parts</em>. Vestibulum tortor quam, feugiat vitae,
-            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-            egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-            eleifend leo. Pellentesque habitant morbi tristique senectus et
-            netus et malesuada fames ac turpis egestas.
-          </p>
-          <p class="font-details-p">
-            <span class="font-name">Font Name</span>,
-            <span class="font-color">#color value</span>
-          </p>
-          <a href="#" class="typography-sample"
-            >This is an example of a text link.</a
-          >
-          <p class="font-details-a">
-            <span class="font-name">Font Name</span>,
-            <span class="font-color">#color value</span>
-          </p>
-        </section>
-        <section class="adjectives">
-          <h3 class="section-heading">Adjectives</h3>
-          <ul>
-            <li>Write</li>
-            <li>Your</li>
-            <li>adjectives</li>
-            <li>here</li>
-          </ul>
+        </main>
+        
+      <div class="stripes2">
+        <section>
+          <img src="grafik/striber_2.png" alt="striber2">
         </section>
       </div>
-      <!-- end .column -->
-    </main>
 
     <div class="full-width">
       <footer>
-        <p>Be creative - don't just use this template as it is!</p>
       </footer>
     </div>
   </body>
